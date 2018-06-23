@@ -1,0 +1,7 @@
+mlb_lineups_output/*
+odds_lineups_output/*
+team_rankings_odds/*
+vegas_run_odds_output/*
+venv/*
+__pycache__/*
+

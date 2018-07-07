@@ -36,7 +36,7 @@ def send_notification():
                            'Lets make some money - Sent from my Yacht', path)
 
 sched = BackgroundScheduler(daemon=True)
-sched.add_job(send_notification, 'interval', minutes=30, start_date='2018-06-22 18:30:00', end_date='2018-06-22 21:01:00')
+sched.add_job(send_notification, 'interval', minutes=30, start_date='2018-06-25 20:23:00', end_date='2018-06-25 20:37:00')
 # # Explicitly kick off the background thread
 sched.start()
 

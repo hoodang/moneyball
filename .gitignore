@@ -6,7 +6,7 @@
 *moneyball.properties
 moneyball.properties
 *__pycache__*
-
+**.idea*
 .idea*
 
 =======

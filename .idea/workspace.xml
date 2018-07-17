@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11d7f338-8f8d-42e6-849f-9ae953b9fa90" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fangraphs.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fangraphs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soup/fangraphs.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
@@ -70,6 +71,15 @@
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -179,7 +189,6 @@
         <option value="$PROJECT_DIR$/utils/email_service.py" />
         <option value="$PROJECT_DIR$/soup/team_rankings.py" />
         <option value="$PROJECT_DIR$/odds_lineups_output/2018-06-22_odds_lineups.csv" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/formulas.py" />
         <option value="$PROJECT_DIR$/mlb_lineups_output/2018-06-25_fangraphs.csv.py" />
         <option value="$PROJECT_DIR$/soup/formulas.py" />
@@ -192,6 +201,7 @@
         <option value="$PROJECT_DIR$/utils/emailservice.py" />
         <option value="$PROJECT_DIR$/MoneyBall.py" />
         <option value="$PROJECT_DIR$/moneyball.properties" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -407,9 +417,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.4986577" weight="0.54985756" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32905984" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29932886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29932886" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.8175355" weight="0.44832215" />
@@ -677,13 +687,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team_rankings_odds/2018-06-22_season_odds.csv" />
     <entry file="file://$PROJECT_DIR$/odds_lineups_output/2018-06-22_odds_lineups.csv" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team_rankings_odds/2018-06-24_season_odds.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38943" />
@@ -830,6 +833,13 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

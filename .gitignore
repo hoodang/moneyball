@@ -4,6 +4,7 @@
 *vegas_run_odds_output/*
 *fangraphs_output/*
 *moneyball.properties
+moneyball.properties
 *__pycache__*
 
 .idea*

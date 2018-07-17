@@ -1,70 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11d7f338-8f8d-42e6-849f-9ae953b9fa90" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/moneyball.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoneyBall.py" beforeDir="false" afterPath="$PROJECT_DIR$/MoneyBall.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/MoneyBall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/mlb_lineups_output/2018-06-20_fan_lineups.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/mlb_lineups_output/2018-06-20_fangraphs.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/mlb_lineups_output/2018-06-20_lineups.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/mlb_lineups_output/2018-06-22_lineups.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/odds_lineups_output/2018-06-20_odds_lineups.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/odds_lineups_output/2018-06-22_odds_lineups.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/soup/5th_inning.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/soup/formulas.py" beforeDir="false" afterPath="$PROJECT_DIR$/soup/formulas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/soup/mlb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/soup/team_rankings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/soup/vegas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/team_rankings_odds/2018-06-22_season_odds.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/utils/emailservice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/utils/utes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/vegas_run_odds_output/run_odds.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Lib/tcl8.6/init.tcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_asyncio.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_bz2.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_ctypes.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_ctypes_test.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_decimal.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_elementtree.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_hashlib.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_lzma.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_msi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_multiprocessing.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_overlapped.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_socket.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_sqlite3.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_ssl.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_testbuffer.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_testcapi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_testconsole.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_testimportmultiple.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_testmultiphase.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/_tkinter.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/pyexpat.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/python3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/python36.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/select.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/tcl86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/tk86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/unicodedata.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/vcruntime140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/Scripts/winsound.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/pip-selfcheck.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyball/venv/pyvenv.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soup/fangraphs.py" beforeDir="false" afterPath="$PROJECT_DIR$/soup/fangraphs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/emailservice.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/emailservice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/utes.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utes.py" afterDir="false" />
-    </list>
+    <list default="true" id="11d7f338-8f8d-42e6-849f-9ae953b9fa90" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,8 +27,8 @@
       <file leaf-file-name="MoneyBall.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MoneyBall.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+            <state relative-caret-position="170">
+              <caret line="49" column="57" lean-forward="true" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -126,8 +63,8 @@
       <file leaf-file-name="fangraphs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soup/fangraphs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="118" column="39" lean-forward="true" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
+            <state relative-caret-position="187">
+              <caret line="116" column="26" lean-forward="true" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -862,16 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soup/fangraphs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="118" column="39" lean-forward="true" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moneyball.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -879,10 +806,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/soup/fangraphs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="116" column="26" lean-forward="true" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MoneyBall.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        <state relative-caret-position="170">
+          <caret line="49" column="57" lean-forward="true" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

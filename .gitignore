@@ -1,7 +1,10 @@
-mlb_lineups_output/*
-odds_lineups_output/*
-team_rankings_odds/*
-vegas_run_odds_output/*
+*mlb_lineups_output/*
+*odds_lineups_output/*
+*team_rankings_odds/*
+*vegas_run_odds_output/*
+*fangraphs_output/*
+*moneyball.properties
+*__pycache__*
 
 .idea*
 
@@ -33,7 +36,7 @@ wheels/
 *.egg
 MANIFEST
 *__pycache__*
-*utils/
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

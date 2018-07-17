@@ -3,7 +3,7 @@
 *team_rankings_odds/*
 *vegas_run_odds_output/*
 *fangraphs_output/*
-*.properties
+**.properties
 moneyball.properties
 *__pycache__*
 **.idea*

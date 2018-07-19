@@ -37,7 +37,7 @@ def todayStr():
 def get_lineups(matchups, date):
     lineups = []
     for m in matchups:
-        if m.find(text=re.compile("TBD")):
+        if m.find(text=re.compile("TBD")) or m.find(text=re.compile("There are no games")):
             continue
         team_names = []
         pitch_list = []
@@ -158,7 +158,7 @@ def final_output(target_dt):
 if __name__ == '__main__':
     #   load_lineups('2018-03-29')
     # trank.get_historic_odds()
-    # get_lineup_history(date(2018, 6, 22))
+    # get_lineup_history(date(2018, 7, 18))
     # odds_lineups = get_odds_lineups('2018-06-20')
     # odds_lineups_to_csv(odds_lineups, '2018-06-20')
     # final_output('2018-06-22')

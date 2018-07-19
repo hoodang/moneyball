@@ -14,12 +14,13 @@ teams_url = 'https://www.teamrankings.com/mlb/teams' #used for team hrefs
 
 project_base = 'C:/Users/lance/PycharmProjects/moneyball/'
 
-head = {'Date', 'Opponent', 'Result', 'Location', 'W/L', 'Div', 'Run Line', 'Odds', 'Total', 'Money'}
+head = {'Date', 'Opponent', 'Result', 'Location', 'W/L', 'Div', 'Run_Line', 'Odds', 'Total', 'Money'}
 
 def get_odds_results(soup):
     #table = soup.find('tbody')
     table = soup.findAll('table', {'class': 'tr-table datatable scrollable'})
     df = pd.read_html(str(table), header=0, flavor="bs4")[0]
+    df.columns = df.columns.str.replace(' ', '_')
     df['W/L'].fillna(0, inplace=True)
     df['Div'].fillna(0, inplace=True)
     df.set_index('Date', inplace=True)
@@ -81,7 +82,7 @@ def get_historic_odds():
         #df.set_index('Date', inplace=True)
         df_list.append(df)
     final = pd.concat(df_list).sort_values('Date')#.set_index('Date')
-    final['Run_Line_Cover'] = list(map(runline_calc, final['Run_Diff'], final['Run Line']))
+    final['Run_Line_Cover'] = list(map(runline_calc, final['Run_Diff'], final['Run_Line']))
     date = datetime.now().strftime("%Y-%m-%d")
     df_csv = final.to_csv(project_base + 'team_rankings_odds/' + date + '_season_odds.csv',
         header=True, index=False)

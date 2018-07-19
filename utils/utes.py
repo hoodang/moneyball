@@ -21,6 +21,5 @@ def load_properties(filepath, sep='=', comment_char='#'):
                 key = key_value[0].strip()
                 value = sep.join(key_value[1:]).strip().strip('"').replace(r'\\', '')
                 props[key] = value
-                print(value)
                 os.environ[key] = value
     return props

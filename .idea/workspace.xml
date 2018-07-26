@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MoneyBall.py" beforeDir="false" afterPath="$PROJECT_DIR$/MoneyBall.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soup/mlb.py" beforeDir="false" afterPath="$PROJECT_DIR$/soup/mlb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soup/team_rankings.py" beforeDir="false" afterPath="$PROJECT_DIR$/soup/team_rankings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,9 +17,9 @@
     <SUITE FILE_PATH="coverage/moneyball$fangraphs__1_.coverage" NAME="fangraphs (1) Coverage Results" MODIFIED="1530496540406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moneyball/soup" />
     <SUITE FILE_PATH="coverage/moneyball$fangraphs__3_.coverage" NAME="fangraphs (3) Coverage Results" MODIFIED="1531072145845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moneyball/soup" />
     <SUITE FILE_PATH="coverage/moneyball$formulas.coverage" NAME="formulas Coverage Results" MODIFIED="1530247922367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/soup" />
-    <SUITE FILE_PATH="coverage/moneyball$moneyball.coverage" NAME="moneyball Coverage Results" MODIFIED="1531961016672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/moneyball$moneyball.coverage" NAME="moneyball Coverage Results" MODIFIED="1532580915251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/moneyball$mlb.coverage" NAME="mlb Coverage Results" MODIFIED="1531957890803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/soup" />
-    <SUITE FILE_PATH="coverage/moneyball$Flask__MoneyBall_py_.coverage" NAME="Flask (MoneyBall.py) Coverage Results" MODIFIED="1532579885224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/moneyball$Flask__MoneyBall_py_.coverage" NAME="Flask (MoneyBall.py) Coverage Results" MODIFIED="1532580591219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/moneyball$vegas.coverage" NAME="vegas Coverage Results" MODIFIED="1528951333508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/soup" />
     <SUITE FILE_PATH="coverage/moneyball$fangraphs.coverage" NAME="fangraphs Coverage Results" MODIFIED="1531801733016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/soup" />
     <SUITE FILE_PATH="coverage/moneyball$fangraphs__2_.coverage" NAME="fangraphs (2) Coverage Results" MODIFIED="1530925335449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/soup" />
@@ -31,20 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pyvenv.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="utilities.py" pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/zappa/utilities.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,14 +51,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fangraphs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/soup/fangraphs.py">
+      <file leaf-file-name="emailservice.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/emailservice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+            <state relative-caret-position="151">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fangraphs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/soup/fangraphs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -93,8 +87,8 @@
       <file leaf-file-name="team_rankings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soup/team_rankings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="86" column="46" lean-forward="true" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
+            <state relative-caret-position="1139">
+              <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -102,16 +96,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mlb.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mlb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soup/mlb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="166" column="43" lean-forward="true" selection-start-line="166" selection-start-column="43" selection-end-line="166" selection-end-column="43" />
+            <state relative-caret-position="132">
+              <caret line="18" column="23" selection-start-line="18" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zappa_settings.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zappa_settings.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="vegas.py" pinned="false" current-in-tab="false">
@@ -126,11 +125,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoneyBall.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MoneyBall.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MoneyBall.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-386">
-              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="289">
+              <caret line="50" column="81" selection-start-line="50" selection-start-column="81" selection-end-line="50" selection-end-column="81" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,8 +149,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pd.Dataframe</find>
-      <find>concat</find>
       <find>fan</find>
       <find>apply</find>
       <find>int</find>
@@ -169,14 +169,16 @@
       <find>to_csv</find>
       <find>listdi</find>
       <find>rename</find>
-      <find />
-      <find />
+      <find>Run Line</find>
+      <find>date test</find>
       <find>29</find>
       <find>soup</find>
       <find>.encode(&quot;utf-8&quot;)</find>
       <find>path</find>
       <find>dir</find>
+      <find>odds</find>
       <find>DIR</find>
+      <find>odds_lineups</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\lance\PycharmProjects\moneyball\odds_lineups_output</dir>
@@ -209,9 +211,9 @@
         <option value="C:/Program Files (x86)/Python36-32/Lib/site-packages/zappa/utilities.py" />
         <option value="C:/Program Files (x86)/Python36-32/Lib/site-packages/zappa/cli.py" />
         <option value="$PROJECT_DIR$/soup/vegas.py" />
-        <option value="$PROJECT_DIR$/MoneyBall.py" />
-        <option value="$PROJECT_DIR$/soup/mlb.py" />
         <option value="$PROJECT_DIR$/soup/team_rankings.py" />
+        <option value="$PROJECT_DIR$/soup/mlb.py" />
+        <option value="$PROJECT_DIR$/MoneyBall.py" />
       </list>
     </option>
   </component>
@@ -252,11 +254,6 @@
             <path>
               <item name="moneyball" type="b2602c69:ProjectViewProjectNode" />
               <item name="moneyball" type="462c0819:PsiDirectoryNode" />
-              <item name="team_rankings_odds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moneyball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moneyball" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -291,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Flask server.Flask (MoneyBall.py)">
+  <component name="RunManager" selected="Flask server.moneyball">
     <configuration name="fangraphs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="moneyball" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -371,20 +368,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Flask (MoneyBall.py)" type="Python.FlaskServer" factoryName="Flask server" temporary="true" nameIsGenerated="true">
-      <module name="moneyball" />
-      <option name="target" value="$PROJECT_DIR$/MoneyBall.py" />
-      <option name="targetType" value="PATH" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-    </configuration>
     <configuration name="moneyball" type="Python.FlaskServer" factoryName="Flask server" singleton="true">
       <option name="additionalOptions" value="" />
       <option name="application" value="" />
@@ -416,11 +399,9 @@
       <item itemvalue="Python.fangraphs" />
       <item itemvalue="Python.team_rankings" />
       <item itemvalue="Python.mlb" />
-      <item itemvalue="Flask server.Flask (MoneyBall.py)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Flask server.Flask (MoneyBall.py)" />
         <item itemvalue="Python.mlb" />
         <item itemvalue="Python.team_rankings" />
         <item itemvalue="Python.fangraphs" />
@@ -442,7 +423,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5013423" side_tool="true" weight="0.32905984" />
@@ -450,9 +430,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.4986577" weight="0.54985756" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32905984" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30738255" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30738255" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
@@ -505,12 +485,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/soup/mlb.py</url>
-          <line>99</line>
+          <line>100</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/soup/mlb.py</url>
-          <line>96</line>
+          <line>97</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -535,12 +515,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/soup/mlb.py</url>
-          <line>102</line>
+          <line>103</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/soup/mlb.py</url>
-          <line>158</line>
+          <line>159</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -555,17 +535,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/soup/mlb.py</url>
-          <line>115</line>
+          <line>116</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/soup/mlb.py</url>
-          <line>111</line>
+          <line>112</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/soup/mlb.py</url>
-          <line>133</line>
+          <line>134</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -585,7 +565,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/soup/mlb.py</url>
-          <line>157</line>
+          <line>158</line>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -595,12 +575,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/soup/mlb.py</url>
-          <line>110</line>
+          <line>111</line>
           <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/soup/mlb.py</url>
-          <line>56</line>
+          <line>57</line>
           <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -625,13 +605,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files (x86)/Python36-32/Lib/datetime.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -800,23 +773,13 @@
         <state relative-caret-position="-48749" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/emailservice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -837,43 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soup/formulas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soup/fangraphs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoneyBall.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-386">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soup/team_rankings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" column="46" lean-forward="true" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/soup/vegas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -884,12 +810,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soup/mlb.py">
+    <entry file="file://$PROJECT_DIR$/zappa_settings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/emailservice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="166" column="43" lean-forward="true" selection-start-line="166" selection-start-column="43" selection-end-line="166" selection-end-column="43" />
+        <state relative-caret-position="151">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soup/formulas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soup/team_rankings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soup/fangraphs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soup/mlb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="18" column="23" selection-start-line="18" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoneyBall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="50" column="81" selection-start-line="50" selection-start-column="81" selection-end-line="50" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

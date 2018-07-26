@@ -16,6 +16,7 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 LINEUPS_DIR = os.path.join(ROOT_DIR, '..', 'mlb_lineups_output')
 TEAM_RANKING_ODDS_DIR = os.path.join(ROOT_DIR, '..', 'team_rankings_odds')
+ODDS_LINEUPS_OUTPUT_DIR = os.path.join(ROOT_DIR, '..', 'odds_lineups_output')
 lineups_base_url = 'https://www.mlb.com/starting-lineups/'
 
 def load_lineups(date):
@@ -102,8 +103,8 @@ def lineups_to_csv(lineups, date):
 def odds_lineups_to_csv(odds_lineups, date):
     # cols = list(odds_lineups[0].keys())
     # df = pd.DataFrame(odds_lineups, columns=cols)
-    os.makedirs(TEAM_RANKING_ODDS_DIR, exist_ok=True)
-    df_csv = odds_lineups.to_csv(os.path.join(TEAM_RANKING_ODDS_DIR, str(date) + '_odds_lineups.csv'), header=True, index=False)
+    os.makedirs(ODDS_LINEUPS_OUTPUT_DIR, exist_ok=True)
+    df_csv = odds_lineups.to_csv(os.path.join(ODDS_LINEUPS_OUTPUT_DIR, str(date) + '_odds_lineups.csv'), header=True, index=False)
 
 def get_lineup_history(current_date):
     start = time.time()

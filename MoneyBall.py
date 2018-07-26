@@ -15,7 +15,7 @@ import atexit
 app = Flask(__name__)
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-OUTPUT_LINEUPS_DIR = os.path.join(ROOT_DIR, 'odds_lineups_output')
+ODDS_LINEUPS_OUTPUT_DIR = os.path.join(ROOT_DIR, 'odds_lineups_output')
 MLB_LINEUPS_DIR = os.path.join(ROOT_DIR, 'mlb_lineups_output')
 
 @app.route('/')
@@ -47,7 +47,7 @@ def send_notification():
     utes.load_properties(filepath=os.path.join(ROOT_DIR, 'moneyball.properties'))
     target_dt = mlb.todayStr()
     mlb.final_output(target_dt)
-    path = os.path.join(OUTPUT_LINEUPS_DIR, target_dt + '_odds_lineups.csv')
+    path = os.path.join(ODDS_LINEUPS_OUTPUT_DIR, target_dt + '_odds_lineups.csv')
     emailservice.send_mail(os.environ.get('gmail_from'), ['lancecreath@gmail.com'],
                            'Odds Lineups ' + str(datetime.now()),
                            'Lets make some money - Sent from my Yacht', path)

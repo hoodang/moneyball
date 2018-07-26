@@ -1,0 +1,14 @@
+#os
+datetime
+zappa
+flask
+pandas
+#time
+selenium
+numpy
+#re
+pathlib
+bs4
+requests
+#ast
+

@@ -15,13 +15,19 @@ import atexit
 app = Flask(__name__)
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-
 OUTPUT_LINEUPS_DIR = os.path.join(ROOT_DIR, 'odds_lineups_output')
 MLB_LINEUPS_DIR = os.path.join(ROOT_DIR, 'mlb_lineups_output')
 
 @app.route('/')
 def hello_world():
-    return 'Hello Ballas!'
+    return '''
+    Hello Ballas!
+    
+            Here are the example endpoints: 
+            1. /getLineups/<date>  ex. /getLineups/2018-07-25
+                -- this is just lineups up until the given date, nothing crazy
+            2. /sendit
+                -- this is a full send, full season of odds and lineups palooza'''
 
 
 @app.route('/getLineups/<date>', methods=["GET"])

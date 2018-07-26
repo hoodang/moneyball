@@ -12,7 +12,8 @@ import time
 team_base_url = 'https://www.teamrankings.com/mlb/team/' #used for odds
 teams_url = 'https://www.teamrankings.com/mlb/teams' #used for team hrefs
 
-project_base = 'C:/Users/lance/PycharmProjects/moneyball/'
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+TEAM_RANKING_ODDS_DIR = os.path.join(ROOT_DIR, '..', 'team_rankings_odds')
 
 head = {'Date', 'Opponent', 'Result', 'Location', 'W/L', 'Div', 'Run_Line', 'Odds', 'Total', 'Money'}
 
@@ -84,7 +85,8 @@ def get_historic_odds():
     final = pd.concat(df_list).sort_values('Date')#.set_index('Date')
     final['Run_Line_Cover'] = list(map(runline_calc, final['Run_Diff'], final['Run_Line']))
     date = datetime.now().strftime("%Y-%m-%d")
-    df_csv = final.to_csv(project_base + 'team_rankings_odds/' + date + '_season_odds.csv',
+    os.makedirs(TEAM_RANKING_ODDS_DIR, exist_ok=True)
+    df_csv = final.to_csv(os.path.join(TEAM_RANKING_ODDS_DIR, date + '_season_odds.csv'),
         header=True, index=False)
     end = time.time()
     print('Odds History Stopwatch: ' + str(end - start))

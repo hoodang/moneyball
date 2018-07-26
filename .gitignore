@@ -5,9 +5,12 @@
 *fangraphs_output/*
 **.properties
 moneyball.properties
+zappa_settings.json
+*.zip
 *__pycache__*
 **.idea*
 .idea*
+.idea/workspace.xml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

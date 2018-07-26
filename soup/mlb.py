@@ -11,8 +11,12 @@ import utils.emailservice as emailservice
 import numpy as np
 import os
 
+
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+LINEUPS_DIR = os.path.join(ROOT_DIR, '..', 'mlb_lineups_output')
+TEAM_RANKING_ODDS_DIR = os.path.join(ROOT_DIR, '..', 'team_rankings_odds')
 lineups_base_url = 'https://www.mlb.com/starting-lineups/'
-project_base = 'C:/Users/lance/PycharmProjects/moneyball/'
 
 def load_lineups(date):
     soup = make_soup(date)
@@ -92,12 +96,14 @@ def lineups_to_csv(lineups, date):
     cols = list(lineups[0].keys())
     df = pd.DataFrame(lineups, columns=cols)
     df = df.apply(lambda x: x.replace('D-Backs', 'Diamondbacks'))
-    df_csv = df.to_csv(project_base + 'mlb_lineups_output/' + str(date) + '_lineups.csv', header=True, index=False)
+    os.makedirs(LINEUPS_DIR, exist_ok=True)
+    df_csv = df.to_csv(os.path.join(LINEUPS_DIR, str(date) + '_lineups.csv'), header=True, index=False)
 
 def odds_lineups_to_csv(odds_lineups, date):
     # cols = list(odds_lineups[0].keys())
     # df = pd.DataFrame(odds_lineups, columns=cols)
-    df_csv = odds_lineups.to_csv(project_base + 'odds_lineups_output/' + str(date) + '_odds_lineups.csv', header=True, index=False)
+    os.makedirs(TEAM_RANKING_ODDS_DIR, exist_ok=True)
+    df_csv = odds_lineups.to_csv(os.path.join(TEAM_RANKING_ODDS_DIR, str(date) + '_odds_lineups.csv'), header=True, index=False)
 
 def get_lineup_history(current_date):
     start = time.time()
@@ -113,12 +119,12 @@ def get_lineup_history(current_date):
 
 def get_odds_lineups(date):
     # Read in historic lineups and odds
-    h_lineups = pd.read_csv(project_base + 'mlb_lineups_output/' + date + '_lineups.csv')
+    h_lineups = pd.read_csv(os.path.join(LINEUPS_DIR, date + '_lineups.csv'))
     # h_lineups = pd.read_csv('../mlb_lineups_output/' + date + '_fan_lineups.csv')
     # print(h_lineups.columns)
     # #h_lineups = pd.DataFrame(np.concatenate([h_lineups.values], axis=1))
     # print(h_lineups.head(2))
-    h_odds = pd.read_csv(project_base + 'team_rankings_odds/' + date + '_season_odds.csv')
+    h_odds = pd.read_csv(os.path.join(TEAM_RANKING_ODDS_DIR, date + '_season_odds.csv'))
     # Flatten the ten batters and positions into single rows by date and team composite keys
     cc = h_lineups.groupby(['date', 'team']).cumcount() + 1
     h_lineups = h_lineups.set_index(['date', 'team', cc]).unstack().sort_index(1, level=1)
